@@ -1,0 +1,71 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-01 .conteiner {
+    display: flex;
+  }
+  .section-01 .conteiner img {
+    width: 125px;
+    height: 125px;
+    display: none;
+  }
+  .section-01 .conteiner .item1,
+.section-01 .conteiner .item3,
+.section-01 .conteiner .item5 {
+    background-color: rgb(193, 224, 252);
+  }
+  .section-01 .conteiner .item1:hover {
+    background-color: aliceblue;
+    height: 145px;
+    transition: 0.5s;
+  }
+  .section-01 .conteiner .item1:hover img {
+    display: block;
+    margin-left: 50px;
+  }
+  .section-01 .conteiner .item2:hover {
+    background-color: aliceblue;
+    height: 145px;
+    transition: 0.5s;
+  }
+  .section-01 .conteiner .item2:hover img {
+    display: block;
+    margin-left: 50px;
+  }
+  .section-01 .conteiner .item3:hover {
+    background-color: aliceblue;
+    height: 145px;
+    transition: 0.5s;
+  }
+  .section-01 .conteiner .item3:hover img {
+    display: block;
+    margin-left: 50px;
+  }
+  .section-01 .conteiner .item4:hover {
+    background-color: aliceblue;
+    height: 145px;
+    transition: 0.5s;
+  }
+  .section-01 .conteiner .item4:hover img {
+    display: block;
+    margin-left: 50px;
+  }
+  .section-01 .conteiner .item5:hover {
+    background-color: aliceblue;
+    height: 145px;
+    transition: 0.5s;
+  }
+  .section-01 .conteiner .item5:hover img {
+    display: block;
+    margin-left: 50px;
+  }
+  .section-01 .conteiner .item2,
+.section-01 .conteiner .item4 {
+    background-color: rgb(185, 198, 209);
+  }
+  .section-01 .conteiner a {
+    text-align: center;
+    width: 230px;
+    height: 60px;
+  }
+}/*# sourceMappingURL=Section01.css.map */
